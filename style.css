@@ -185,7 +185,7 @@ html, body {
 
 .footer-bottom {
     font-size: 0.9rem;
-    color: #888;
+    color: #000000;
     text-align: center;
     border-top: 2px solid rgb(0, 0, 0);
     padding: 2em;
@@ -355,4 +355,121 @@ padding: 60px 100px;
     }
 
 
+/*CHAPTERS*/
+
+.chapter-section {
+    background-color: #f8fbff;
+    padding: 100px 80px;
+    text-align: center;
+}
+
+
+.chapter-section h2 {
+    font-size: 4rem;
+    color: #4a70e7;
+    margin-bottom: 30px;
+    margin-top: -2px;
+}
+
+.chapter-section p {
+    font-size: 1.4rem;
+    max-width: 850px;
+    margin: 0 auto 50px;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+.chapter-btn {
+    display: inline-block;
+    background-color: #4a70e7;
+    color: white;
+    border: 2px solid #4a70e7;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-size: 1.5em;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.chapter-btn:hover {
+    background-color: #023e8a;
+    color: white;
+}
+
+.chapter-info {
+    display: none;
+    margin-top: 60px;
+    animation: fadeIn 0.7s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(30px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+.chapter-process h3 {
+    color: #194b9b;
+    margin-bottom: 40px;
+    font-size: 2em;
+
+}
+
+.process-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.step {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    background: #ffe6c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.step:hover {
+    transform: scale(1.05);
+}
+
+.step .num {
+    background-color: #194b9b;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.step1 { background-color: #ffd59e; }
+.step2 {background-color: #f8b3cf; }
+.step3 {background-color: #b6e5ea;}
+.step4 {background-color: #ffb6a1;}
+.step5 {background-color: #ffe0b3;}
+.step6 {background-color: #aee1f9;}
+
+.step p {
+    font-size: 0.95em;
+    line-height: 1.4;
+    color: #333;
+    padding: 0 10px;
+}
 

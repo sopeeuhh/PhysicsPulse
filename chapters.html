@@ -17,7 +17,6 @@
         </div>
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="blog.html">Blog</a></li>
         <li><a href="chapters.html">Chapters</a></li>
         <li><a href="members.html">Members</a></li>
         <li><a href="podcast.html">Podcast</a></li>
@@ -29,10 +28,50 @@
     <a href="https://linktr.ee/PhysicsPulse_" class="join-btn">Join Us!</a>
 </nav>
 
-<!--HOME-->
-<section class="hero">
-    <h1>Welcome to PhysicsPule</h1>
-    <p>PhysicsPulse is an international nonprofit youth organization that aims to provide content in an engaging way that challenges the sterotypes surrounding physics. Our goal is to help you see the physics around you from a new perspective—and appreciate it in your everyday life.</p>
+<!--CHAPTERS-->
+<section class="chapter-section">
+        <h2>Start a Chapter with PhysicsPulse</h2>
+        <p>Join our growing network of passionate students around the world! By starting a PhysicsPulse chapter, you'll inspire curiosity, host physic-related events, and bring science to your community in fun and creative ways.</p>
+
+        <button id="getStartedBtn" class="chapter-btn">Get Started</button>
+
+        <div id="chapterInfo" class="chapter-info">
+            <div class="chapter-process">
+            <h3>How to Start a Chapter</h3>
+            <div class="process-container">
+                <div class="step step1">
+                    <span class="num">1</span>
+                    <p>Complete the <a href="https://docs.google.com/forms/d/e/1FAIpQLScrpNlxKMv5Q-R8DwGv08FPWQIBlDcBJfQwWB36VC4aRRkzIQ/viewform" target="_blank">PhysicsPulse Chapter Application Form</a>
+                    to share your vision for your chapter and your plans for engaging the community!</p>
+                    </div>
+                    <div class="step step2">
+                        <span class="num">2</span>
+                        <p>After reviewing your appliation, if you're a suitable candidate. we'll schedule a meeting to learn more about you and discuss your ideas.</p>
+                        </div>
+
+                        <div class="step step3">
+                            <span class="num">3</span>
+                            <p>Recruit members for key positions: Outreach Coordinator, Content Creator, Researcher, and Event Coordinator.</p>
+                            </div>
+                            <div class="step step4">
+                                <span class="num">4</span>
+                                <p>We'll provide resources and materials to help you kickstart your first event and set up your Instagram page!
+                                    View our <a href="https://www.canva.com/design/DAGWBhqWIZY/TacK8hjGFwwju4N0t0fb1A/edit" target="_blank">Chapter Handbook</a>
+                                </p>
+                            </div>
+                            <div class="step step5">
+                                <span class="num">5</span>
+                                <p>Start small by hosting your first event! Post about it on Instagram, and we'll provide certificates for volunteer hours and participants.</p>
+
+                            </div>
+                            <div class="step step6">
+                                <span class="num">6</span>
+                                <p>Stay active on Instagram and plan real-life events. Keep up the amazing work, and don't hesitate to reach out for help!</p>
+
+                            </div>
+                        </div>
+                    </div>
+        </div>
 </section>
 
 
@@ -56,6 +95,13 @@
     </p>
 </footer>
 
+<script>
+    document.getElementById('getStartedBtn').addEventListener('click',function() {
+        const info = document.getElementById('chapterInfo');
+        info.style.display = info.style.display === 'block' ? 'none' : 'block';
+
+    });
+</script>
 
 
 </body>
