@@ -245,7 +245,7 @@ padding: 60px 100px;
 .about-text p {
     max-width: 600px;
     line-height: 1.7;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     color: #333;
     padding-bottom: 0.5em;
 }
@@ -259,7 +259,7 @@ padding: 60px 100px;
 
 .about-image img {
     width: 100%;
-    max-width: 400px;
+    max-width: 550px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
@@ -500,7 +500,7 @@ html {
 
 .members-section h2 {
     color: #4a70e7;
-    font-size: 2.5em;
+    font-size: 3em;
     margin-bottom: 15px;
     text-align: left;
     margin-top: -1em;
@@ -643,3 +643,124 @@ html {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 25px;
 }
+
+/*CONTACT*/
+
+.contact-header {
+    text-align: center;
+    padding: 80px 60px 60px;
+    color: #4a70e7;
+}
+
+.contact-header h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    margin-top: -80px;
+}
+
+.contact-header p {
+    font-size: 1.4rem;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.contact-columns {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding: 0 60px 50px;
+}
+
+
+.contact-form, .contact-social {
+    flex: 1 1 400px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.contact-form:hover, .contact-social:hover {
+    transform: translate(-5px);
+}
+
+.contact-form h2, .contact-social h2 {
+    color: #4a70e7;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    margin-top: -1px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #333;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 14px 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    transition: border 0.3s;
+}
+
+.contactform input:focus, .contact-form textarea:focus {
+    border-color: #4a70e7;
+    outline: none;
+}
+
+.contact-form button {
+    background-color: #4a70e7;
+    color: white;
+    font-size: 1.2em;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #4a70e7;
+}
+
+.contact-social p {
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    margin-top: 45px;
+
+}
+
+.social-icons a {
+    font-size: 2.3rem;
+    transition: all 0.3s ease;
+    text-decoration: none;
+
+}
+
+.social-icons a:hover {
+    color:#4a70e7;
+}
+
+.social-icons .youtube {color: #ff0000;}
+.social-icons .linkedin {color: #0e76a8;}
+.social-icons .instagram {color: #E4405F;}
+.social-icons .spotify {color: #1DB954;}
+.social-icons .email {color: #555;}
+
