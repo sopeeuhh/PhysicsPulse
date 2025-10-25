@@ -1221,5 +1221,49 @@ html {
 
   .timeline-dot {
     display: none;
+    
   }
 }
+
+
+
+
+
+
+/* ✅ Fix horizontal overflow from timeline on index.html */
+@media only screen and (max-width: 768px) {
+  html, body {
+    overflow-x: hidden !important;
+  }
+
+  /* Force the timeline to fit inside the screen */
+  .timeline {
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 auto !important;
+  }
+
+  .timeline-horizontal,
+  .timeline-item,
+  .timeline-content {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    box-sizing: border-box;
+  }
+
+  /* Remove side spacing from timeline items */
+  .timeline-item {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  /* Hide line and dots if they push layout too wide */
+  .timeline-horizontal::before,
+  .timeline-dot {
+    display: none !important;
+  }
+}
+
