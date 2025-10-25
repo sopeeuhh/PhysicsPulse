@@ -869,3 +869,278 @@ html {
     background-color: #3758c0;
 }
 
+
+
+
+
+/* -------------------------------------- */
+/* 📱 MOBILE RESPONSIVENESS FOR IPHONES  */
+/* -------------------------------------- */
+
+@media only screen and (max-width: 768px) {
+
+    html, body {
+        font-size: 14px;
+        overflow-x: hidden;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+
+    .nav-logo {
+        margin: 0 0 10px 0;
+    }
+
+    .nav-logo img {
+        height: 100px;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .navbar li {
+        margin: 5px 12px;
+    }
+
+    .join-btn {
+        padding: 10px 30px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    /* HERO SECTION */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 100px 20px 60px;
+    }
+
+    .hero img {
+        max-width: 100%;
+        margin: 0 auto 0px;
+        margin-top: -7em;
+    }
+
+    .hero h1 {
+        font-size: 2.3rem;
+        margin: 10px 0;
+        text-align: center;
+        padding-right: 0;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+        padding: 0;
+        text-align: center;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+        padding: 0;
+        gap: 20px;
+    }
+
+    .hero-btn {
+        font-size: 1rem;
+        padding: 12px 30px;
+    }
+
+    /* ABOUT SECTION */
+    .about {
+        padding: 60px 20px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-text h2 {
+        font-size: 2rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+        padding: 0;
+        margin-bottom: 1em;
+    }
+
+    .about-image img {
+        max-width: 95%;
+        margin-top: -20px;
+    }
+
+    /* TIMELINE */
+    .timeline-horizontal {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .timeline-horizontal::before {
+        display: none;
+    }
+
+    .timeline-content {
+        width: 90%;
+        max-width: 320px;
+    }
+
+    .timeline h2 {
+        font-size: 2.3rem;
+    }
+
+    /* FOOTER */
+    .footer-container {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-links {
+        align-items: center;
+    }
+
+    .footer-links a {
+        font-size: 18px;
+    }
+
+    .footer-bottom {
+        font-size: 0.8rem;
+        padding: 1.5em;
+    }
+
+    /* CHAPTERS */
+    .chapter-section {
+        padding: 60px 20px;
+    }
+
+    .chapter-section h2 {
+        padding-top: 2em;
+        font-size: 2.5rem;
+    }
+
+    .chapter-section p {
+        font-size: 1.1rem;
+    }
+
+    .process-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 180px;
+        height: 180px;
+    }
+
+    .chapter-btn {
+        font-size: 1.2em;
+        padding: 12px 30px;
+    }
+
+    /* MEMBERS */
+    .members-section {
+        padding: 60px 20px;
+    }
+
+    .members-section h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .members-section p {
+        text-align: center;
+        font-size: 1.1em;
+    }
+
+    .member-grid {
+        justify-content: center;
+    }
+
+    .member-card {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    /* PODCAST */
+    .podcast-section {
+        padding: 60px 20px;
+    }
+
+    .podcast-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .podcast-text {
+        text-align: center;
+        padding: 0;
+    }
+
+    .podcast-text h2 {
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .podcast-text p {
+        padding: 0;
+        font-size: 1.1em;
+    }
+
+    .podcast-player {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    /* EVENTS */
+    .events-section {
+        padding: 60px 20px;
+    }
+
+    .events-header h2 {
+        font-size: 2.5rem;
+    }
+
+    .events-header p {
+        font-size: 1.1rem;
+    }
+
+    .events-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .event-card img {
+        height: 200px;
+    }
+
+    /* CONTACT */
+    .contact-header h1 {
+        font-size: 2.5rem;
+    }
+
+    .contact-columns {
+        flex-direction: column;
+        padding: 0 20px 40px;
+    }
+
+    .contact-form, .contact-social {
+        padding: 25px;
+    }
+
+    .social-icons {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
