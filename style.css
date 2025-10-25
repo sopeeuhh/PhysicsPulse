@@ -918,7 +918,7 @@ html {
     }
 
     .hero img {
-        max-width: 100%;
+        max-width: 50%;
         margin: 0 auto 0px;
         margin-top: -7em;
     }
@@ -928,12 +928,14 @@ html {
         margin: 10px 0;
         text-align: center;
         padding-right: 0;
+        margin-right: -3em;
     }
 
     .hero p {
         font-size: 1.1rem;
         padding: 0;
         text-align: center;
+        margin-right: -5em;
     }
 
     .hero-buttons {
