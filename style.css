@@ -928,20 +928,21 @@ html {
         margin: 10px 0;
         text-align: center;
         padding-right: 0;
-        margin-right: -3em;
+        margin-right: 4em;
     }
 
     .hero p {
         font-size: 1.1rem;
         padding: 0;
         text-align: center;
-        margin-right: -5em;
+        margin-right: 6em;
     }
 
     .hero-buttons {
         justify-content: center;
         padding: 0;
         gap: 20px;
+        margin-right: 6em;
     }
 
     .hero-btn {
