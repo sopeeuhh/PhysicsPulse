@@ -1152,22 +1152,42 @@ html {
 
 
 @media only screen and (max-width: 768px) {
-  html, body {
-    overflow-x: hidden;
+  .timeline,
+  .timeline-horizontal,
+  .timeline-item,
+  .timeline-content {
+    all: unset;
   }
 
   .timeline {
-    padding: 60px 20px;
+    background-color: white;
     text-align: center;
+    padding: 60px 20px;
     margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .timeline h2 {
+    font-size: 2.2rem;
+    color: #4a70e7;
+    margin-bottom: 20px;
+  }
+
+  .timeline p {
+    font-size: 1.1rem;
+    color: #4a70e7;
+    margin-bottom: 40px;
   }
 
   .timeline-horizontal {
+    display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 40px;
     width: 100%;
+    padding: 0;
   }
 
   .timeline-horizontal::before {
@@ -1176,23 +1196,30 @@ html {
 
   .timeline-item {
     width: 100%;
-    max-width: 320px;
+    max-width: 330px;
     margin: 0 auto;
   }
 
   .timeline-content {
-    width: 90%;
     background: #f0f7ff;
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 90%;
+    margin: 0 auto;
   }
 
   .timeline-content h3 {
     font-size: 1.2rem;
+    color: #0056b3;
   }
 
   .timeline-content p {
     font-size: 1rem;
+    color: #333;
+  }
+
+  .timeline-dot {
+    display: none;
   }
 }
