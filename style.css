@@ -973,22 +973,7 @@ html {
         margin-top: -20px;
     }
 
-    
-    
-    
-    
 
-
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
    
     /* FOOTER */
     .footer-container {
@@ -1134,7 +1119,7 @@ html {
         flex-wrap: wrap;
         gap: 20px;
     }
-}
+
 
 
 
@@ -1173,6 +1158,5 @@ html {
     width: 90%;
 }
 
-
-
+}
 
