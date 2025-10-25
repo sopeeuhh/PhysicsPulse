@@ -910,41 +910,43 @@ html {
         margin-top: 10px;
     }
 
-
     /* HERO SECTION */
     .hero {
-        flex-direction: column;
-        align-items: flex-end;      /* move everything to the right */
-        text-align: right;          /* header & paragraph right-aligned */
-        padding: 80px 20px 40px;
-    }
-
-    /* HERO HEADER */
-    .hero h1 {
-        font-size: 2.3rem;
-        margin: 0 10px 10px 0;      /* small margin from right edge */
-    }
-
-    /* HERO PARAGRAPH */
-    .hero p {
-        font-size: 1.1rem;
-        margin: 0 10px 20px 0;
-    }
-
-    /* HERO BUTTONS */
-    .hero-buttons {
-        justify-content: flex-end;  /* keep buttons on the right */
-        gap: 15px;
-        padding-right: 10px;
-    }
-
-    /* HERO IMAGE */
-    .hero img {
-        max-width: 35%;             /* smaller image */
-        margin-right: 0;
-        display: block;
-    }
+    flex-direction: column;
+    text-align: right; /* move header and paragraph to right */
+    padding: 100px 20px 60px;
+    align-items: flex-end; /* aligns content to the right */
 }
+
+.hero img {
+    max-width: 40%; /* make image smaller */
+    margin-right: 1em; /* move image slightly to the right */
+    margin-top: -7em;
+}
+
+  .hero h1 {
+    font-size: 2.3rem;
+    margin: 10px 0;
+    padding-right: 1em; /* slight spacing from the edge */
+    text-align: right;
+}
+
+   .hero p {
+    font-size: 1.1rem;
+    padding-right: 1em; /* move paragraph slightly left from the edge */
+    text-align: right;
+}
+
+  .hero-buttons {
+    justify-content: flex-end; /* align buttons to the right */
+    padding-right: 1em;
+    gap: 20px;
+}
+
+    .hero-btn {
+        font-size: 1rem;
+        padding: 12px 30px;
+    }
 
     /* ABOUT SECTION */
     .about {
