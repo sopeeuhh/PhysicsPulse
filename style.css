@@ -912,38 +912,36 @@ html {
 
     /* HERO SECTION */
     .hero {
-        flex-direction: column;
-        text-align: center;
-        padding: 100px 20px 60px;
-    }
+    flex-direction: column;
+    text-align: right; /* move header and paragraph to right */
+    padding: 100px 20px 60px;
+    align-items: flex-end; /* aligns content to the right */
+}
 
-    .hero img {
-        max-width: 50%;
-        margin: 0 auto 0px;
-        margin-top: -7em;
-    }
+.hero img {
+    max-width: 40%; /* make image smaller */
+    margin-right: 1em; /* move image slightly to the right */
+    margin-top: -7em;
+}
 
-    .hero h1 {
-        font-size: 2.3rem;
-        margin: 10px 0;
-        text-align: center;
-        padding-right: 0;
-        margin-right: 10em;
-    }
+  .hero h1 {
+    font-size: 2.3rem;
+    margin: 10px 0;
+    padding-right: 1em; /* slight spacing from the edge */
+    text-align: right;
+}
 
-    .hero p {
-        font-size: 1.1rem;
-        padding: 0;
-        text-align: center;
-        margin-right: 10em;
-    }
+   .hero p {
+    font-size: 1.1rem;
+    padding-right: 1em; /* move paragraph slightly left from the edge */
+    text-align: right;
+}
 
-    .hero-buttons {
-        justify-content: center;
-        padding: 0;
-        gap: 20px;
-        margin-right: 10em;
-    }
+  .hero-buttons {
+    justify-content: flex-end; /* align buttons to the right */
+    padding-right: 1em;
+    gap: 20px;
+}
 
     .hero-btn {
         font-size: 1rem;
