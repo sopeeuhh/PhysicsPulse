@@ -111,6 +111,12 @@ html, body {
     line-height: 1.4em;
 }
 
+.hero img {
+    max-width: 55%;
+    margin-right: 2em;
+    margin-top: -12em;
+}
+
 /*MAIN BUTTON*/
 
 .hero-buttons {
@@ -763,4 +769,103 @@ html {
 .social-icons .instagram {color: #E4405F;}
 .social-icons .spotify {color: #1DB954;}
 .social-icons .email {color: #555;}
+
+
+
+
+/* EVENTS SECTION */
+.events-section {
+    background-color: #f0f7ff;
+    padding: 100px 60px;
+    text-align: center;
+}
+
+.events-header h2 {
+    font-size: 3.5rem;
+    color: #4a70e7;
+    margin-bottom: 20px;
+    margin-top: -35px;
+}
+
+.events-header p {
+    font-size: 1.3rem;
+    max-width: 800px;
+    margin: 0 auto 60px;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Grid for event cards */
+.events-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 50px;
+}
+
+/* Event Card */
+.event-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+.event-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.event-content {
+    padding: 25px 30px;
+    text-align: left;
+}
+
+.event-content h3 {
+    font-size: 2rem;
+    color: #194b9b;
+    margin-bottom: 15px;
+
+}
+
+.event-content p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.event-content ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.event-content ul li {
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+.event-btn {
+    display: inline-block;
+    background-color: #4a70e7;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.event-btn:hover {
+    background-color: #3758c0;
+}
 
