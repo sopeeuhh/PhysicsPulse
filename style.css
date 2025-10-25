@@ -1176,6 +1176,40 @@ html {
 
 
 
+@media only screen and (max-width: 768px) {
+
+    /* HERO SECTION */
+    .hero {
+        display: flex !important;          /* force flex layout */
+        flex-direction: column !important; /* stack items vertically */
+        align-items: flex-end !important;  /* move everything to the right */
+        text-align: right !important;      /* header and paragraph text align right */
+        padding: 100px 20px 60px !important;
+    }
+
+    .hero h1 {
+        font-size: 2.3rem !important;
+        margin: 10px 0 !important;
+        padding-right: 10px !important;   /* spacing from right edge */
+    }
+
+    .hero p {
+        font-size: 1.1rem !important;
+        padding-right: 10px !important;   /* spacing from right edge */
+    }
+
+    .hero-buttons {
+        justify-content: flex-end !important;  /* move buttons to the right */
+        padding-right: 10px !important;
+        gap: 15px !important;
+    }
+
+    .hero img {
+        max-width: 35% !important;    /* smaller image */
+        margin-right: 10px !important; /* move image slightly to right */
+        margin-top: -5em !important;  /* adjust vertical position */
+    }
+}
 
 
 
